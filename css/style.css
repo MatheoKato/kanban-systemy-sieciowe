@@ -1,0 +1,143 @@
+body{ 
+    font: 14px sans-serif;
+    background-color: #e1bee7; 
+}
+
+.wrapper{
+    width: 360px;
+    padding: 20px;  
+}
+
+
+.welcome-message{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-buttons{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kanban{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kanban-container{
+    width: 1000px;
+    min-height: 80vh;
+    display: flex;
+    overflow-y: auto;
+    
+}
+
+.status{
+    width: 25%;
+    background-color: #ba68c8;
+    position: relative;
+    padding: 60px 1rem 0.5rem;
+    border-radius: 10px;   
+}
+
+
+.status:nth-child(even){
+    background-color: #ab47bc;
+}
+
+.status h3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #7b1fa2;
+    color: #f3f3f3;
+    margin: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+
+    
+
+}
+
+.add-task{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.input-task{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #7b1fa2;
+    color: #f3f3f3;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.input-task input{
+    border-radius: 5px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.input-task input:focus{
+    background-color: #ba68c8;
+    color: #f3f3f3;
+}
+
+.input-task select{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-task select:focus{
+    background-color: #ba68c8;
+    color: #f3f3f3;
+}
+
+.input-task button{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.task-todo{
+    width: 95%;
+    height: 10px auto;
+    padding: 20px 10px;
+    background-color: #8e24aa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.remove-task{
+    display: block;
+    float: right;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    transition: background 1s;
+    cursor: pointer;
+    background-color: #aa00ff;
+}
+
+.remove-task:hover{
+    background-color: #e1bee7;
+    color: #fff;
+}
+
